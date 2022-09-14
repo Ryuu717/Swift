@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Turtle Rock",
+        "category": "Rivers",
+        "city": "Twentynine Palms",
+        "state": "California",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Joshua Tree National Park",
+        "ファイル名": "UKList()",
+        "imageName": "1"
+    },
+    {
+        "name": "Silver Salmon Creek",
+        "category": "Lakes",
+        "city": "Port Alsworth",
+        "state": "Alaska",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Lake Clark National Park and Preserve",
+        "ファイル名": "UKList()",
+        "imageName": "2"
+    },
+    {
+        "name": "Chilkoot Trail",
+        "category": "Mountains",
+        "city": "Skagway",
+        "state": "Alaska",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Klondike Gold Rush National Historical Park",
+        "ファイル名": "UKList()",
+        "imageName": "3"
+    },
+    {
+        "name": "St. Mary Lake",
+        "category": "Lakes",
+        "city": "Browning",
+        "state": "Montana",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Glacier National Park",
+        "ファイル名": "UKList()",
+        "imageName": "4"
+    }
+]

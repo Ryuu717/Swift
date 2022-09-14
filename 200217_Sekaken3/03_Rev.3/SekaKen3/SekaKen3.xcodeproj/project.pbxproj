@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21219F752410795B00C61951 /* JapanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21219F742410795B00C61951 /* JapanView.swift */; };
+		21219F772410796E00C61951 /* JapanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21219F762410796E00C61951 /* JapanData.swift */; };
+		21219F792410797F00C61951 /* JapanRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21219F782410797F00C61951 /* JapanRow.swift */; };
+		21219F7B2410799A00C61951 /* JapanDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21219F7A2410799A00C61951 /* JapanDetail.swift */; };
+		2134D8E6240A1EE0005B7B0A /* NorthAmericaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8E5240A1EE0005B7B0A /* NorthAmericaDetail.swift */; };
+		2134D8E8240B2CA3005B7B0A /* CentralAmericaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8E7240B2CA3005B7B0A /* CentralAmericaView.swift */; };
+		2134D8EA240B2CBF005B7B0A /* CentralAmericaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8E9240B2CBE005B7B0A /* CentralAmericaData.swift */; };
+		2134D8EC240B2CD1005B7B0A /* CentralAmericaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8EB240B2CD1005B7B0A /* CentralAmericaRow.swift */; };
+		2134D8EE240B2CE7005B7B0A /* CentralAmericaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8ED240B2CE7005B7B0A /* CentralAmericaDetail.swift */; };
+		2134D8F1240DE69B005B7B0A /* SouthAmericaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8F0240DE69B005B7B0A /* SouthAmericaView.swift */; };
+		2134D8F3240DE6D4005B7B0A /* SouthAmericaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8F2240DE6D3005B7B0A /* SouthAmericaData.swift */; };
+		2134D8F5240DE6F1005B7B0A /* SouthAmericaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8F4240DE6F1005B7B0A /* SouthAmericaRow.swift */; };
+		2134D8F7240DE705005B7B0A /* SouthAmericaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8F6240DE705005B7B0A /* SouthAmericaDetail.swift */; };
+		2134D8FA240F2F9F005B7B0A /* OceaniaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8F9240F2F9F005B7B0A /* OceaniaView.swift */; };
+		2134D8FC240F2FC1005B7B0A /* OceaniaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8FB240F2FC1005B7B0A /* OceaniaData.swift */; };
+		2134D8FE240F2FD8005B7B0A /* OceaniaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8FD240F2FD8005B7B0A /* OceaniaRow.swift */; };
+		2134D900240F2FEB005B7B0A /* OceaniaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134D8FF240F2FEB005B7B0A /* OceaniaDetail.swift */; };
+		21404A8424131CF300C41213 /* WestSouthAsiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21404A8324131CF300C41213 /* WestSouthAsiaView.swift */; };
+		21404A8624131D0700C41213 /* WestSouthAsiaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21404A8524131D0700C41213 /* WestSouthAsiaData.swift */; };
+		21404A8824131D1500C41213 /* WestSouthAsiaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21404A8724131D1500C41213 /* WestSouthAsiaRow.swift */; };
+		21404A8A24131D2400C41213 /* WestSouthAsiaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21404A8924131D2400C41213 /* WestSouthAsiaDetail.swift */; };
+		21595E502411CCEE0098764E /* SouthEastAsiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21595E4F2411CCEE0098764E /* SouthEastAsiaView.swift */; };
+		21595E522411CD340098764E /* SouthEastAsiaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21595E512411CD340098764E /* SouthEastAsiaData.swift */; };
+		21595E542411CD4E0098764E /* SouthEastAsiaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21595E532411CD4E0098764E /* SouthEastAsiaRow.swift */; };
+		21595E562411CD610098764E /* SouthEastAsiaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21595E552411CD610098764E /* SouthEastAsiaDetail.swift */; };
+		215C0F2023F50F8D00A72032 /* EuropeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F1F23F50F8D00A72032 /* EuropeView.swift */; };
+		215C0F2323F510D700A72032 /* ContinentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F2223F510D700A72032 /* ContinentData.swift */; };
+		215C0F2523F5136900A72032 /* EuropeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F2423F5136900A72032 /* EuropeData.swift */; };
+		215C0F2723F5186100A72032 /* EuropeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F2623F5186100A72032 /* EuropeRow.swift */; };
+		215C0F2923F51C3C00A72032 /* ContinentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F2823F51C3C00A72032 /* ContinentRow.swift */; };
+		215C0F2E23F52C2300A72032 /* NorthAmericaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F2D23F52C2300A72032 /* NorthAmericaView.swift */; };
+		215C0F3123F52CF000A72032 /* NorthAmericaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F3023F52CF000A72032 /* NorthAmericaData.swift */; };
+		215C0F3323F52F3500A72032 /* NorthAmericaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C0F3223F52F3500A72032 /* NorthAmericaRow.swift */; };
+		219E61E223F3C22C00437F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E61E123F3C22C00437F33 /* AppDelegate.swift */; };
+		219E61E423F3C22C00437F33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E61E323F3C22C00437F33 /* SceneDelegate.swift */; };
+		219E61E623F3C22C00437F33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219E61E523F3C22C00437F33 /* ContentView.swift */; };
+		219E61E823F3C23400437F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219E61E723F3C23400437F33 /* Assets.xcassets */; };
+		219E61EB23F3C23400437F33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219E61EA23F3C23400437F33 /* Preview Assets.xcassets */; };
+		219E61EE23F3C23400437F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219E61EC23F3C23400437F33 /* LaunchScreen.storyboard */; };
+		21C3709323F8D99700465B76 /* EuropeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C3709223F8D99700465B76 /* EuropeDetail.swift */; };
+		21D1B1A623F61EA300C0E322 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1B1A523F61EA300C0E322 /* MapView.swift */; };
+		21D1B1B323F626E300C0E322 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1B1B223F626E200C0E322 /* CircleImage.swift */; };
+		21D3AA2124148A1D0026E686 /* AfricaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3AA2024148A1D0026E686 /* AfricaView.swift */; };
+		21D3AA2324148A310026E686 /* AfricaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3AA2224148A310026E686 /* AfricaData.swift */; };
+		21D3AA2524148A450026E686 /* AfricaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3AA2424148A450026E686 /* AfricaRow.swift */; };
+		21D3AA2724148A580026E686 /* AfricaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D3AA2624148A580026E686 /* AfricaDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21219F742410795B00C61951 /* JapanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanView.swift; sourceTree = "<group>"; };
+		21219F762410796E00C61951 /* JapanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanData.swift; sourceTree = "<group>"; };
+		21219F782410797F00C61951 /* JapanRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanRow.swift; sourceTree = "<group>"; };
+		21219F7A2410799A00C61951 /* JapanDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanDetail.swift; sourceTree = "<group>"; };
+		2134D8E5240A1EE0005B7B0A /* NorthAmericaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthAmericaDetail.swift; sourceTree = "<group>"; };
+		2134D8E7240B2CA3005B7B0A /* CentralAmericaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralAmericaView.swift; sourceTree = "<group>"; };
+		2134D8E9240B2CBE005B7B0A /* CentralAmericaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralAmericaData.swift; sourceTree = "<group>"; };
+		2134D8EB240B2CD1005B7B0A /* CentralAmericaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralAmericaRow.swift; sourceTree = "<group>"; };
+		2134D8ED240B2CE7005B7B0A /* CentralAmericaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralAmericaDetail.swift; sourceTree = "<group>"; };
+		2134D8F0240DE69B005B7B0A /* SouthAmericaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaView.swift; sourceTree = "<group>"; };
+		2134D8F2240DE6D3005B7B0A /* SouthAmericaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaData.swift; sourceTree = "<group>"; };
+		2134D8F4240DE6F1005B7B0A /* SouthAmericaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaRow.swift; sourceTree = "<group>"; };
+		2134D8F6240DE705005B7B0A /* SouthAmericaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmericaDetail.swift; sourceTree = "<group>"; };
+		2134D8F9240F2F9F005B7B0A /* OceaniaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceaniaView.swift; sourceTree = "<group>"; };
+		2134D8FB240F2FC1005B7B0A /* OceaniaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceaniaData.swift; sourceTree = "<group>"; };
+		2134D8FD240F2FD8005B7B0A /* OceaniaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceaniaRow.swift; sourceTree = "<group>"; };
+		2134D8FF240F2FEB005B7B0A /* OceaniaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceaniaDetail.swift; sourceTree = "<group>"; };
+		21404A8324131CF300C41213 /* WestSouthAsiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestSouthAsiaView.swift; sourceTree = "<group>"; };
+		21404A8524131D0700C41213 /* WestSouthAsiaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestSouthAsiaData.swift; sourceTree = "<group>"; };
+		21404A8724131D1500C41213 /* WestSouthAsiaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestSouthAsiaRow.swift; sourceTree = "<group>"; };
+		21404A8924131D2400C41213 /* WestSouthAsiaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WestSouthAsiaDetail.swift; sourceTree = "<group>"; };
+		21595E4F2411CCEE0098764E /* SouthEastAsiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthEastAsiaView.swift; sourceTree = "<group>"; };
+		21595E512411CD340098764E /* SouthEastAsiaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthEastAsiaData.swift; sourceTree = "<group>"; };
+		21595E532411CD4E0098764E /* SouthEastAsiaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthEastAsiaRow.swift; sourceTree = "<group>"; };
+		21595E552411CD610098764E /* SouthEastAsiaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthEastAsiaDetail.swift; sourceTree = "<group>"; };
+		215C0F1F23F50F8D00A72032 /* EuropeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeView.swift; sourceTree = "<group>"; };
+		215C0F2223F510D700A72032 /* ContinentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentData.swift; sourceTree = "<group>"; };
+		215C0F2423F5136900A72032 /* EuropeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeData.swift; sourceTree = "<group>"; };
+		215C0F2623F5186100A72032 /* EuropeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeRow.swift; sourceTree = "<group>"; };
+		215C0F2823F51C3C00A72032 /* ContinentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentRow.swift; sourceTree = "<group>"; };
+		215C0F2D23F52C2300A72032 /* NorthAmericaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthAmericaView.swift; sourceTree = "<group>"; };
+		215C0F3023F52CF000A72032 /* NorthAmericaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthAmericaData.swift; sourceTree = "<group>"; };
+		215C0F3223F52F3500A72032 /* NorthAmericaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthAmericaRow.swift; sourceTree = "<group>"; };
+		219E61DE23F3C22C00437F33 /* SekaKen3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SekaKen3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219E61E123F3C22C00437F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		219E61E323F3C22C00437F33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		219E61E523F3C22C00437F33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		219E61E723F3C23400437F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219E61EA23F3C23400437F33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		219E61ED23F3C23400437F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219E61EF23F3C23400437F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C3709223F8D99700465B76 /* EuropeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeDetail.swift; sourceTree = "<group>"; };
+		21D1B1A523F61EA300C0E322 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		21D1B1B223F626E200C0E322 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		21D3AA2024148A1D0026E686 /* AfricaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaView.swift; sourceTree = "<group>"; };
+		21D3AA2224148A310026E686 /* AfricaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaData.swift; sourceTree = "<group>"; };
+		21D3AA2424148A450026E686 /* AfricaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaRow.swift; sourceTree = "<group>"; };
+		21D3AA2624148A580026E686 /* AfricaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219E61DB23F3C22C00437F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21219F7C24107AEC00C61951 /* Japan */ = {
+			isa = PBXGroup;
+			children = (
+				21219F742410795B00C61951 /* JapanView.swift */,
+				21219F762410796E00C61951 /* JapanData.swift */,
+				21219F782410797F00C61951 /* JapanRow.swift */,
+				21219F7A2410799A00C61951 /* JapanDetail.swift */,
+			);
+			path = Japan;
+			sourceTree = "<group>";
+		};
+		2134D8EF240B2DFF005B7B0A /* CentralAmerica */ = {
+			isa = PBXGroup;
+			children = (
+				2134D8E7240B2CA3005B7B0A /* CentralAmericaView.swift */,
+				2134D8E9240B2CBE005B7B0A /* CentralAmericaData.swift */,
+				2134D8EB240B2CD1005B7B0A /* CentralAmericaRow.swift */,
+				2134D8ED240B2CE7005B7B0A /* CentralAmericaDetail.swift */,
+			);
+			path = CentralAmerica;
+			sourceTree = "<group>";
+		};
+		2134D8F8240DE711005B7B0A /* SouthAmerica */ = {
+			isa = PBXGroup;
+			children = (
+				2134D8F0240DE69B005B7B0A /* SouthAmericaView.swift */,
+				2134D8F2240DE6D3005B7B0A /* SouthAmericaData.swift */,
+				2134D8F4240DE6F1005B7B0A /* SouthAmericaRow.swift */,
+				2134D8F6240DE705005B7B0A /* SouthAmericaDetail.swift */,
+			);
+			path = SouthAmerica;
+			sourceTree = "<group>";
+		};
+		2134D901240F36F5005B7B0A /* Oceania */ = {
+			isa = PBXGroup;
+			children = (
+				2134D8F9240F2F9F005B7B0A /* OceaniaView.swift */,
+				2134D8FB240F2FC1005B7B0A /* OceaniaData.swift */,
+				2134D8FD240F2FD8005B7B0A /* OceaniaRow.swift */,
+				2134D8FF240F2FEB005B7B0A /* OceaniaDetail.swift */,
+			);
+			path = Oceania;
+			sourceTree = "<group>";
+		};
+		21404A8B2413246000C41213 /* WestSouthAsia */ = {
+			isa = PBXGroup;
+			children = (
+				21404A8324131CF300C41213 /* WestSouthAsiaView.swift */,
+				21404A8524131D0700C41213 /* WestSouthAsiaData.swift */,
+				21404A8724131D1500C41213 /* WestSouthAsiaRow.swift */,
+				21404A8924131D2400C41213 /* WestSouthAsiaDetail.swift */,
+			);
+			path = WestSouthAsia;
+			sourceTree = "<group>";
+		};
+		21595E572411D0E50098764E /* SouthEastAsia */ = {
+			isa = PBXGroup;
+			children = (
+				21595E4F2411CCEE0098764E /* SouthEastAsiaView.swift */,
+				21595E512411CD340098764E /* SouthEastAsiaData.swift */,
+				21595E532411CD4E0098764E /* SouthEastAsiaRow.swift */,
+				21595E552411CD610098764E /* SouthEastAsiaDetail.swift */,
+			);
+			path = SouthEastAsia;
+			sourceTree = "<group>";
+		};
+		215C0F2123F5103600A72032 /* Europe */ = {
+			isa = PBXGroup;
+			children = (
+				215C0F1F23F50F8D00A72032 /* EuropeView.swift */,
+				215C0F2423F5136900A72032 /* EuropeData.swift */,
+				215C0F2623F5186100A72032 /* EuropeRow.swift */,
+				21C3709223F8D99700465B76 /* EuropeDetail.swift */,
+			);
+			path = Europe;
+			sourceTree = "<group>";
+		};
+		215C0F2A23F51C9100A72032 /* Continent */ = {
+			isa = PBXGroup;
+			children = (
+				215C0F2223F510D700A72032 /* ContinentData.swift */,
+				215C0F2823F51C3C00A72032 /* ContinentRow.swift */,
+			);
+			path = Continent;
+			sourceTree = "<group>";
+		};
+		215C0F3423F5304000A72032 /* NorthAmerica */ = {
+			isa = PBXGroup;
+			children = (
+				215C0F2D23F52C2300A72032 /* NorthAmericaView.swift */,
+				215C0F3023F52CF000A72032 /* NorthAmericaData.swift */,
+				215C0F3223F52F3500A72032 /* NorthAmericaRow.swift */,
+				2134D8E5240A1EE0005B7B0A /* NorthAmericaDetail.swift */,
+			);
+			path = NorthAmerica;
+			sourceTree = "<group>";
+		};
+		219E61D523F3C22C00437F33 = {
+			isa = PBXGroup;
+			children = (
+				219E61E023F3C22C00437F33 /* SekaKen3 */,
+			);
+			sourceTree = "<group>";
+		};
+		219E61DF23F3C22C00437F33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219E61DE23F3C22C00437F33 /* SekaKen3.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		219E61E023F3C22C00437F33 /* SekaKen3 */ = {
+			isa = PBXGroup;
+			children = (
+				219E61E123F3C22C00437F33 /* AppDelegate.swift */,
+				219E61E323F3C22C00437F33 /* SceneDelegate.swift */,
+				219E61E523F3C22C00437F33 /* ContentView.swift */,
+				215C0F2A23F51C9100A72032 /* Continent */,
+				215C0F2123F5103600A72032 /* Europe */,
+				215C0F3423F5304000A72032 /* NorthAmerica */,
+				2134D8EF240B2DFF005B7B0A /* CentralAmerica */,
+				2134D8F8240DE711005B7B0A /* SouthAmerica */,
+				2134D901240F36F5005B7B0A /* Oceania */,
+				21219F7C24107AEC00C61951 /* Japan */,
+				21595E572411D0E50098764E /* SouthEastAsia */,
+				21404A8B2413246000C41213 /* WestSouthAsia */,
+				21D3AA2824148A5F0026E686 /* Africa */,
+				219E61DF23F3C22C00437F33 /* Products */,
+				219E61E723F3C23400437F33 /* Assets.xcassets */,
+				219E61EC23F3C23400437F33 /* LaunchScreen.storyboard */,
+				219E61EF23F3C23400437F33 /* Info.plist */,
+				219E61E923F3C23400437F33 /* Preview Content */,
+				21D1B1B423F626FA00C0E322 /* Supporting Views */,
+			);
+			path = SekaKen3;
+			sourceTree = "<group>";
+		};
+		219E61E923F3C23400437F33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				219E61EA23F3C23400437F33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21D1B1B423F626FA00C0E322 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				21D1B1B223F626E200C0E322 /* CircleImage.swift */,
+				21D1B1A523F61EA300C0E322 /* MapView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		21D3AA2824148A5F0026E686 /* Africa */ = {
+			isa = PBXGroup;
+			children = (
+				21D3AA2024148A1D0026E686 /* AfricaView.swift */,
+				21D3AA2224148A310026E686 /* AfricaData.swift */,
+				21D3AA2424148A450026E686 /* AfricaRow.swift */,
+				21D3AA2624148A580026E686 /* AfricaDetail.swift */,
+			);
+			path = Africa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219E61DD23F3C22C00437F33 /* SekaKen3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219E61F223F3C23400437F33 /* Build configuration list for PBXNativeTarget "SekaKen3" */;
+			buildPhases = (
+				219E61DA23F3C22C00437F33 /* Sources */,
+				219E61DB23F3C22C00437F33 /* Frameworks */,
+				219E61DC23F3C22C00437F33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SekaKen3;
+			productName = SekaKen3;
+			productReference = 219E61DE23F3C22C00437F33 /* SekaKen3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219E61D623F3C22C00437F33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "石田竜宇";
+				TargetAttributes = {
+					219E61DD23F3C22C00437F33 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 219E61D923F3C22C00437F33 /* Build configuration list for PBXProject "SekaKen3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219E61D523F3C22C00437F33;
+			productRefGroup = 219E61DF23F3C22C00437F33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219E61DD23F3C22C00437F33 /* SekaKen3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219E61DC23F3C22C00437F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219E61EE23F3C23400437F33 /* LaunchScreen.storyboard in Resources */,
+				219E61EB23F3C23400437F33 /* Preview Assets.xcassets in Resources */,
+				219E61E823F3C23400437F33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219E61DA23F3C22C00437F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219E61E223F3C22C00437F33 /* AppDelegate.swift in Sources */,
+				21595E542411CD4E0098764E /* SouthEastAsiaRow.swift in Sources */,
+				215C0F2E23F52C2300A72032 /* NorthAmericaView.swift in Sources */,
+				2134D8EA240B2CBF005B7B0A /* CentralAmericaData.swift in Sources */,
+				215C0F3323F52F3500A72032 /* NorthAmericaRow.swift in Sources */,
+				2134D8F3240DE6D4005B7B0A /* SouthAmericaData.swift in Sources */,
+				21D1B1A623F61EA300C0E322 /* MapView.swift in Sources */,
+				215C0F2923F51C3C00A72032 /* ContinentRow.swift in Sources */,
+				21219F752410795B00C61951 /* JapanView.swift in Sources */,
+				2134D8E6240A1EE0005B7B0A /* NorthAmericaDetail.swift in Sources */,
+				2134D8FA240F2F9F005B7B0A /* OceaniaView.swift in Sources */,
+				21404A8A24131D2400C41213 /* WestSouthAsiaDetail.swift in Sources */,
+				21D3AA2124148A1D0026E686 /* AfricaView.swift in Sources */,
+				219E61E423F3C22C00437F33 /* SceneDelegate.swift in Sources */,
+				21595E502411CCEE0098764E /* SouthEastAsiaView.swift in Sources */,
+				21C3709323F8D99700465B76 /* EuropeDetail.swift in Sources */,
+				21D3AA2524148A450026E686 /* AfricaRow.swift in Sources */,
+				2134D8F7240DE705005B7B0A /* SouthAmericaDetail.swift in Sources */,
+				215C0F3123F52CF000A72032 /* NorthAmericaData.swift in Sources */,
+				2134D8FE240F2FD8005B7B0A /* OceaniaRow.swift in Sources */,
+				21404A8824131D1500C41213 /* WestSouthAsiaRow.swift in Sources */,
+				21219F772410796E00C61951 /* JapanData.swift in Sources */,
+				21219F7B2410799A00C61951 /* JapanDetail.swift in Sources */,
+				21595E522411CD340098764E /* SouthEastAsiaData.swift in Sources */,
+				2134D8E8240B2CA3005B7B0A /* CentralAmericaView.swift in Sources */,
+				2134D8EC240B2CD1005B7B0A /* CentralAmericaRow.swift in Sources */,
+				21404A8624131D0700C41213 /* WestSouthAsiaData.swift in Sources */,
+				21595E562411CD610098764E /* SouthEastAsiaDetail.swift in Sources */,
+				215C0F2723F5186100A72032 /* EuropeRow.swift in Sources */,
+				215C0F2023F50F8D00A72032 /* EuropeView.swift in Sources */,
+				21404A8424131CF300C41213 /* WestSouthAsiaView.swift in Sources */,
+				215C0F2323F510D700A72032 /* ContinentData.swift in Sources */,
+				21D3AA2724148A580026E686 /* AfricaDetail.swift in Sources */,
+				2134D900240F2FEB005B7B0A /* OceaniaDetail.swift in Sources */,
+				215C0F2523F5136900A72032 /* EuropeData.swift in Sources */,
+				21D1B1B323F626E300C0E322 /* CircleImage.swift in Sources */,
+				2134D8FC240F2FC1005B7B0A /* OceaniaData.swift in Sources */,
+				21D3AA2324148A310026E686 /* AfricaData.swift in Sources */,
+				219E61E623F3C22C00437F33 /* ContentView.swift in Sources */,
+				2134D8F1240DE69B005B7B0A /* SouthAmericaView.swift in Sources */,
+				21219F792410797F00C61951 /* JapanRow.swift in Sources */,
+				2134D8EE240B2CE7005B7B0A /* CentralAmericaDetail.swift in Sources */,
+				2134D8F5240DE6F1005B7B0A /* SouthAmericaRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		219E61EC23F3C23400437F33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219E61ED23F3C23400437F33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219E61F023F3C23400437F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		219E61F123F3C23400437F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219E61F323F3C23400437F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SekaKen3/Preview Content\"";
+				DEVELOPMENT_TEAM = YUDJ9NBJ86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SekaKen3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuuu.SekaKen3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219E61F423F3C23400437F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SekaKen3/Preview Content\"";
+				DEVELOPMENT_TEAM = YUDJ9NBJ86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SekaKen3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryuuu.SekaKen3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219E61D923F3C22C00437F33 /* Build configuration list for PBXProject "SekaKen3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219E61F023F3C23400437F33 /* Debug */,
+				219E61F123F3C23400437F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219E61F223F3C23400437F33 /* Build configuration list for PBXNativeTarget "SekaKen3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219E61F323F3C23400437F33 /* Debug */,
+				219E61F423F3C23400437F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219E61D623F3C22C00437F33 /* Project object */;
+}

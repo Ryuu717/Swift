@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SunriseApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input City Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bqR-BO-nvr">
+                                <rect key="frame" x="16" y="21" width="343" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunrise：　" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKb-rv-en4">
+                                <rect key="frame" x="16" y="155" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPw-sa-4vT">
+                                <rect key="frame" x="85" y="315" width="205" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Check sunrise time">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="findSunrise:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Exi-r9-XIa"/>
+                                    <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8iE-iy-pCH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FLL-1V-wu8"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bqR-BO-nvr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AsG-DQ-KQ2"/>
+                            <constraint firstItem="lKb-rv-en4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FvY-hl-soB"/>
+                            <constraint firstItem="bqR-BO-nvr" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Mdc-fD-JNG"/>
+                            <constraint firstItem="bqR-BO-nvr" firstAttribute="top" secondItem="FLL-1V-wu8" secondAttribute="top" constant="21" id="daf-2s-R2p"/>
+                            <constraint firstItem="iPw-sa-4vT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kRF-v3-Vs7"/>
+                            <constraint firstItem="lKb-rv-en4" firstAttribute="top" secondItem="bqR-BO-nvr" secondAttribute="bottom" constant="100" id="mWZ-Fk-nLD"/>
+                            <constraint firstItem="iPw-sa-4vT" firstAttribute="centerX" secondItem="FLL-1V-wu8" secondAttribute="centerX" id="mwe-Mo-CI0"/>
+                            <constraint firstItem="lKb-rv-en4" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="thD-f0-ca7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cityNameInput" destination="bqR-BO-nvr" id="6a1-8g-ohm"/>
+                        <outlet property="sunriseTimeLabel" destination="lKb-rv-en4" id="wae-yu-JUQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-100" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

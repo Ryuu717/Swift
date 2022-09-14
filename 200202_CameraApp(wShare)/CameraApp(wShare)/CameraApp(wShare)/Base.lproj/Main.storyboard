@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CameraApp_wShare_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Swq-Zq-T8E">
+                                <rect key="frame" x="20" y="72" width="374" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="qhS-8w-KFr"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPf-FK-Pe3">
+                                <rect key="frame" x="20" y="398" width="374" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="カメラを起動">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="201-8h-kIa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grk-0a-nXp">
+                                <rect key="frame" x="20" y="473" width="374" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="シェア">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gy-6g-TA8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="65W-fY-PbK"/>
+                            <constraint firstItem="Grk-0a-nXp" firstAttribute="top" secondItem="hPf-FK-Pe3" secondAttribute="bottom" constant="41" id="W5t-KV-SyA"/>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="leading" secondItem="Grk-0a-nXp" secondAttribute="leading" id="Xk0-Ch-Bi3"/>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="trailing" secondItem="Grk-0a-nXp" secondAttribute="trailing" id="Ypd-me-U3g"/>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="haF-QH-0Iv"/>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="trailing" secondItem="hPf-FK-Pe3" secondAttribute="trailing" id="iLR-6Z-EXk"/>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ozn-8W-Dhf"/>
+                            <constraint firstItem="hPf-FK-Pe3" firstAttribute="top" secondItem="Swq-Zq-T8E" secondAttribute="bottom" constant="70" id="pQN-HX-bM5"/>
+                            <constraint firstItem="Swq-Zq-T8E" firstAttribute="leading" secondItem="hPf-FK-Pe3" secondAttribute="leading" id="sXU-2w-ZY4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="photoDisplay" destination="Swq-Zq-T8E" id="r4s-EI-3WO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+</document>
